@@ -1,0 +1,45 @@
+# configs/train_config.yaml
+
+paths:
+  raw_h5_dir: "./data/H5" 
+  processed_dir: "./data/processed"
+  template_dir: "./data/templates"
+  optimized_h5_dir: "./data/optimized_h5" 
+
+data_specs:
+  tr: 2.0
+  voxel_resolution: [30, 64, 64] 
+  n_ica_components: 64
+  eeg_freq_bins: 64
+  
+  h5_key_fmri: "fmri" 
+  h5_key_eeg: "eeg"
+  
+  activation_threshold: 1.0
+  
+  history_frames: 1 
+  delay_frames: 2   
+
+training:
+  device: "cuda"     
+  
+  num_epochs: 50
+  batch_size: 64     
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-5
+  
+  optimizer: "AdamW"  # AdamW or Adam
+  beta1: 0.9
+  beta2: 0.999
+  epsilon: 1.0e-8
+
+  gradient_clip_norm: 1.0
+  
+
+  regression_loss_weight: 1.0
+  cosine_loss_weight: 0.5
+  
+
+  num_workers: 0      
+  lazy_load: false     
+  checkpoint_interval: 5 
