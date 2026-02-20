@@ -8,6 +8,6 @@ You can see our visualization down below:
 
 This project is still under development.
 
-But of course, current results a not 100% valid, they contain a lot of problems, but still cool enough.
+But of course, current results are not 100% valid, they contain a lot of problems, but still cool enough.
 
 If you find any error or unproperate design, welcome to report.
