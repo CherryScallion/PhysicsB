@@ -12,4 +12,4 @@ But of course, current results are not 100% valid, they contain a lot of problem
 
 If you find any error or unproperate design, welcome to report.
 
-The project is surely under development and were testing new losses and artitechture for now.
+The project is surely under development and were testing new losses and architecture for now.
