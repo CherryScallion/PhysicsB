@@ -11,3 +11,5 @@ This project is still under development.
 But of course, current results are not 100% valid, they contain a lot of problems, but still cool enough.
 
 If you find any error or unproperate design, welcome to report.
+
+The project is surely under development and were testing new losses and artitechture for now.
